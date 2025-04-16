@@ -10,3 +10,5 @@ divisor = float(input("¿Cuál es el divisor? "))
 
 dividir(dividendo, divisor)
 dividir(4, 2)
+dividir(3, 2)
+dividir(7, 3)
