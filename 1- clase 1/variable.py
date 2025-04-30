@@ -1,4 +1,4 @@
-numero: int = "2"
+numero: int = 2
 var_string = "Hola"
 var_booleana = True
 numero_flotante = 3.14

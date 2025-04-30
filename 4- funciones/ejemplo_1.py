@@ -1,5 +1,5 @@
 #desarrollamos una función que recibe una lista y calcula la media
-def calcular_media(notas: list):
+def calcular_media(notas: list) -> float:
 
     acumulador = 0
     contador = 0
@@ -8,7 +8,10 @@ def calcular_media(notas: list):
         acumulador += notas[i]
         contador += 1
 
-    print(f"La media es {acumulador/contador}")
+    media_funcion = acumulador/contador
+    print(f"La media es {media_funcion}")
+
+    return media_funcion
 
 def calcular_media_2(acumulador: int, contador: int):
 
@@ -18,7 +21,9 @@ lista_notas = list(range(10))
 
 print(lista_notas)
 
-calcular_media(lista_notas)
+media_global = calcular_media(lista_notas)
+
+print(media_global)
 
 
 

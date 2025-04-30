@@ -1,10 +1,19 @@
 def calcular_precio_con_iva(costo: float, 
                             iva: float = 21)-> float:
 
+    #'''
+    #En la documentación voy a explicar qué hace la función,
+    #qué tipo de valores recibe la función, 
+    #qué tipo de valores retorna.
+    #'''
+
     '''
-    En la documentación voy a explicar qué hace la función,
-    qué tipo de valores recibe la función, 
-    qué tipo de valores retorna.
+    La función calcula el valor final de un producto, incluyendo el Impuesto
+    al Valor Agregado. 
+    Args:
+        costo de tipo entero, iva de tipo entero.
+    returns:
+        precio final de tipo flotante.
     '''
 
     precio_con_iva = costo * (1 + iva * 0.01)
